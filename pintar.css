@@ -1,0 +1,73 @@
+main .lista{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main .lista .listaAmigos{
+    display: flex;
+    flex-direction: column;
+}
+main .lista .listaAmigos div{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+main .lista .listaAmigos div p{
+    font-weight: bold;
+    color: whitesmoke;
+}
+main .lista .listaAmigos div button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color: azure;
+    cursor: pointer;
+}
+.detallesAmigo{
+    position: fixed;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-color: #a2d2ff;
+    top: calc(37vh - 200px);
+    left: calc(50vw - 200px);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.detallesAmigo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.detallesAmigo h3{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.detallesAmigo p span{
+    font-weight: bold;
+    font-style: italic;
+}
+.detallesAmigo button{
+    width: 95px;
+    height: 45px;
+    font-size: 16px;
+    border: none;
+    background-color: darkred;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 18px;
+}
+
+.oculto{
+    display: none;
+}
